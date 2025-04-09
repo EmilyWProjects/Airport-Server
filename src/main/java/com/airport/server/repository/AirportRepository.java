@@ -8,6 +8,6 @@ import java.util.List;
 
 @Repository
 public interface AirportRepository extends JpaRepository<Airport, Long> {
-    List<Airport> findAirportsByCityId(Long cityId); // Derived query to fetch airports for a specific city
+    List<Airport> findAirportsByCityId(Long cityId); 
 }
 

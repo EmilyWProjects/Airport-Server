@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface PassengerRepository extends JpaRepository<Passenger, Long> {
-    List<Passenger> findByAircraftsId(Long aircraftId); // Derived query to get passengers by aircraft
-    List<Passenger> findByAircraftsAirportsId(Long airportId); // Derived query to get passengers by airport
-    List<Passenger> findByCityId(Long cityId); // Derived query to get passengers by city
+    List<Passenger> findByAircraftsId(Long aircraftId); 
+    List<Passenger> findByAircraftsAirportsId(Long airportId); 
+    List<Passenger> findByCityId(Long cityId); 
 }
